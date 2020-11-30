@@ -190,12 +190,12 @@ for category in categories:
 
         current_page += 1
 
-        wait_period = random.randint(20, 40)/10
+        wait_period = random.randint(10, 25)/10
         print(f'Waiting for {wait_period} seconds to fetch next page')
         time.sleep(wait_period)
         
     current_page = 1
-    wait_period = random.randint(20, 40)/10
+    wait_period = random.randint(10, 25)/10
     print(f'Waiting for {wait_period} seconds to fetch next category')
     time.sleep(wait_period)
 

@@ -32,12 +32,12 @@ query = """
     )
 """
 try:
-    cur.execute('DROP TABLE products;')
-    conn.commit()
+    # cur.execute('DROP TABLE products;')
+    # conn.commit()
 
-    cur.execute(query)
-    conn.commit()
-    # print(cur.execute('select count(*) from products').fetchall())
+    # cur.execute(query)
+    # conn.commit()
+    print(cur.execute('select count(*) from products').fetchall())
 except Exception as err:
     print('ERROR BY CREATE TABLE', err)
 
