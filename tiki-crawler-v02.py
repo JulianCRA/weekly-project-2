@@ -199,5 +199,6 @@ for category in categories:
     print(f'Waiting for {wait_period} seconds to fetch next category')
     time.sleep(wait_period)
 
+
 print('DONE')
    
